@@ -64,6 +64,7 @@ def calculator():
                 calculator() #HOW DO I FIX RECURSION PROBLEM????
             elif choice == "stop":
                 print("Turning off the calculator... Thank you!")
+                check2 = False
                 return  # Stop the program
             else:
                 print("Invalid choice, please type 'y', 'n', or 'stop'.")
