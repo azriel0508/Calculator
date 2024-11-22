@@ -20,7 +20,7 @@ operations = {  # Dictionary for the operations
 }
 
 def get_number(prompt): #Found this solution from stack overflow! (Allows the user to input if did not input a number)
-    """Helper function to get a valid number from the user.""" #Docstring!!
+    """Function to get a valid number from the user""" #Docstring (First time using a docstring!)
     while True:
         try:
             return float(input(prompt))
